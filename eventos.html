@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="eventos.js" defer ></script>
+    <title>Manipulación</title>
+</head>
+<body>
+    <!--para hacerlo desde un formulario para poder ver el resultado hacemos lo siguiente 
+    damos un ID al <form> y asignar la variable en js-->
+    <form id="form">
+        <h1 class="titulo">Calculadora breve</h1>
+
+        <input  id="numero1" placeholder="Coloca tu numero aqui">
+        <!--Para los input de llama ONCHANGE escuchar elementos -->
+        <input id="numero2" placeholder=" Coloca tu segundo numero">
+        <!--Una de las formas de escuchar los clicks desde HTML el onclick "(parametro())"
+        pero con el addEventListener sera diferente -->
+        <button id="calcular">Operando</button>
+
+        <p id="resultado"></p>
+    </form>
+
+</body>
+</html>
